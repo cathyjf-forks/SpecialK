@@ -1,0 +1,18 @@
+# https://editorconfig.org/
+# https://learn.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options
+# https://learn.microsoft.com/en-us/visualstudio/ide/cpp-editorconfig-properties
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+
+# Place 'else' on a new line
+cpp_new_line_before_else = true
+
+# Position of open braces for functions: Move to a new line
+cpp_new_line_before_open_brace_function = new_line
+
+# Position of open braces for control blocks: Move to a new line
+cpp_new_line_before_open_brace_block = new_line

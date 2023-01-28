@@ -3624,7 +3624,7 @@ SK_ImGui_ControlPanel (void)
              = int (
   static_cast <float>
    (ImGui::CalcTextSize (szTitle, nullptr, true).x)
-          * 1.075f );
+          * 1.075f / io.FontGlobalScale );
 
   static bool first_frame = true;
   bool        open        = true;
